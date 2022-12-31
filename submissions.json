@@ -1,4 +1,20 @@
 {
+  "CF187472521": {
+    "contest_id": 318,
+    "language": "GNU C++17",
+    "path": "codeforces\\318\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Even Odds",
+    "problem_url": "https://codeforces.com/contest/318/problem/A",
+    "submission_id": "CF187472521",
+    "submission_url": "https://codeforces.com/contest/318/submission/187472521",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Dec/31/2022 21:01"
+  },
   "CF187487753": {
     "contest_id": 102,
     "language": "GNU C++17",
