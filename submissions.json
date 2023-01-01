@@ -1,4 +1,22 @@
 {
+  "CF187489059": {
+    "contest_id": 16,
+    "language": "GNU C++14",
+    "path": "codeforces\\16\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Burglar and Matches",
+    "problem_url": "https://codeforces.com/contest/16/problem/B",
+    "submission_id": "CF187489059",
+    "submission_url": "https://codeforces.com/contest/16/submission/187489059",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Jan/01/2023 05:25"
+  },
   "CF187489930": {
     "contest_id": 78,
     "language": "GNU C++14",
