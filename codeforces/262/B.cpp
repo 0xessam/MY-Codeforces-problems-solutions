@@ -48,7 +48,7 @@ void solllve()
 		k-- ;
 	}
 	sortv(v) ;
-	if (k%2)  v[0]*=-1 ;
+	if (k) v[0]*=pow(-1,k) ;
 	ll s{} ;
 	for (int i = 0 ; i<n ; ++i) s+=v[i] ;
 	cout << s ;
