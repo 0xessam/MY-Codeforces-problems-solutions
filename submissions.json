@@ -1,4 +1,20 @@
 {
+  "CF187567816": {
+    "contest_id": 1747,
+    "language": "GNU C++14",
+    "path": "codeforces\\1747\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "BAN BAN",
+    "problem_url": "https://codeforces.com/contest/1747/problem/B",
+    "submission_id": "CF187567816",
+    "submission_url": "https://codeforces.com/contest/1747/submission/187567816",
+    "tags": [
+      "constructive algorithms",
+      "*900"
+    ],
+    "timestamp": "Jan/02/2023 03:04"
+  },
   "CF189039352": {
     "contest_id": 143,
     "language": "GNU C++17",
