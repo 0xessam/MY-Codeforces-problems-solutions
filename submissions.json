@@ -1,4 +1,21 @@
 {
+  "CF189422155": {
+    "contest_id": 591,
+    "language": "GNU C++17",
+    "path": "codeforces\\591\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Wizards' Duel",
+    "problem_url": "https://codeforces.com/contest/591/problem/A",
+    "submission_id": "CF189422155",
+    "submission_url": "https://codeforces.com/contest/591/submission/189422155",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/16/2023 13:37"
+  },
   "CF189486850": {
     "contest_id": 194,
     "language": "GNU C++17",
