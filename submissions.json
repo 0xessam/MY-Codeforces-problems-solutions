@@ -1,4 +1,21 @@
 {
+  "CF189486850": {
+    "contest_id": 194,
+    "language": "GNU C++17",
+    "path": "codeforces\\194\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Exams",
+    "problem_url": "https://codeforces.com/contest/194/problem/A",
+    "submission_id": "CF189486850",
+    "submission_url": "https://codeforces.com/contest/194/submission/189486850",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/17/2023 04:16"
+  },
   "CF189500993": {
     "contest_id": 1005,
     "language": "GNU C++17",
