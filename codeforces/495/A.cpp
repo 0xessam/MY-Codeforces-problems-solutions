@@ -36,9 +36,12 @@ bool isPerfectSquare(ll x){if (x >= 0) {ll sr = sqrt(x);return (sr * sr == x);}r
 	
 void solllve()
 {
-	int a[] {2,7,2,3,3,4,2,5,1,2} ;
-	string s; cin >> s ;
-	cout << a[s[0]-48] * a[s[1]-48] ;
+	map<char,int> mp ;
+	mp['0']=2 ; mp['1']=7 ; mp['2']=2 ;
+	mp['3']=3 ; mp['4']=3 ; mp['5']=4 ;
+    mp['6']=2 ; mp['7']=5 ; mp['8']=1 ;
+	mp['9']=2 ;
+	string s; cin >> s ; cout << mp[s[0]] * mp[s[1]] ;
 }
 int main()
 {
