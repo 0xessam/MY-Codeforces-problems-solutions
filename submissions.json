@@ -1,4 +1,21 @@
 {
+  "CF189813932": {
+    "contest_id": 980,
+    "language": "GNU C++17",
+    "path": "codeforces\\980\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Links and Pearls",
+    "problem_url": "https://codeforces.com/contest/980/problem/A",
+    "submission_id": "CF189813932",
+    "submission_url": "https://codeforces.com/contest/980/submission/189813932",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/20/2023 10:18"
+  },
   "CF189822272": {
     "contest_id": 588,
     "language": "GNU C++17",
