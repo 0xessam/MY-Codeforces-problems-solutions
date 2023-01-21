@@ -47,7 +47,7 @@ void solllve()
 		{
 			cout << c << el ; return ;
 		}
-		if (n%2==0  and n%6 )
+		if (n%2==0 and n%4==0 and n%6 )
 		{
 			cout << -1 <<el ; return ;
 		}
