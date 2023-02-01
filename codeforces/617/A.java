@@ -7,14 +7,9 @@ public class Mavenproject1 {
 
     public static void main(String[]code_forces) {
         Scanner cin = new Scanner(System.in) ;
-        int n=cin.nextInt() ;
-        int sm = n/5 ;
-        n%=5 ;
-        int f ; 
-        if (n>0) f=1  ;
-                else f=0 ;
-        
-        System.out.println(sm+f);
+      long n=cin.nextLong() ; 
+        System.out.println((n+4)/5);
+  
 }
 
 }
