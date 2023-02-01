@@ -1,4 +1,20 @@
 {
+  "CF191621123": {
+    "contest_id": 1722,
+    "language": "GNU C++17",
+    "path": "codeforces\\1722\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Spell Check",
+    "problem_url": "https://codeforces.com/contest/1722/problem/A",
+    "submission_id": "CF191621123",
+    "submission_url": "https://codeforces.com/contest/1722/submission/191621123",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/01/2023 22:02"
+  },
   "CF191621808": {
     "contest_id": 1722,
     "language": "GNU C++17",
