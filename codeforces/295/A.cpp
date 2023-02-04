@@ -20,11 +20,11 @@ const int N=1e5+5;
 
 void solllve()
 {
-    int n , m , k ;
-    cin >> n >> m>>k ;
-    ll a[n],pr[n+5]{} ;
+    ll n , m , k ;
+    cin >> n >> m >> k ;
+    ll a[N],pr[N]{} ;
     FOR (i,n) cin >> a[i] ;
-    pair<pair<int,int>,int>p[m] ;
+    pair<pair<int,int>,ll>p[N] ;
     FOR (i,m)
     {
         cin >> p[i].first.first >> p[i].first.second >> p[i].second ;
@@ -41,13 +41,14 @@ void solllve()
     //cout << el ;
     FOR(i,m)
     {
-        ll l , r , d , cnt ;
+        int l , r , d , cnt ;
         l=p[i].first.first ;
         r=p[i].first.second ;
         d=p[i].second ;
         cnt = op[i] ;
-        pr[l-1]+=d*cnt ;
-        pr[r]-=d*cnt ;
+
+        pr[l-1]+=1ll*d*cnt ;
+        pr[r]-=1ll*d*cnt ;
 
     }
     for (int i=1 ; i<n ; i++)
