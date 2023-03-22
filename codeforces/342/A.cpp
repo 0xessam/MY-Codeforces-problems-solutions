@@ -1,6 +1,6 @@
- /* Only a fool learns from his own mistakes. The wise man learns from the mistakes of others.*/
+    /* Only a fool learns from his own mistakes. The wise man learns from the mistakes of others.*/
     /*{ وَالَّذِينَ جَاهَدُوا فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ اللَّهَ لَمَعَ الْمُحْسِنِينَ }*/
- 
+
     #include <bits/stdc++.h>
     using namespace std ;
     #define ll long long
@@ -27,12 +27,12 @@
     #define show(x)  cout << #x << " = " << x << '\n'
     #define cvc(x) for (auto &i : x) cin >> i ;
     #define cm return void
- 
+
     void solllve () ;
- 
+
     int main()
     {
- 
+
         // TxtIO
         cin.sync_with_stdio(0); cin.tie(0);
         int t = 1 ;
@@ -43,7 +43,7 @@
         }
         return 0;
     }
- 
+
   void solllve()
     {
        int n ; cin >> n ;
@@ -63,5 +63,5 @@
             FOR (i,m[4]) cout <<"1 2 4\n" ;
         }
        FOR (i,m[6]-m[3]) cout << "1 2 6\n" ;
- 
+
     }
