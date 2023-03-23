@@ -1,6 +1,6 @@
-    /* Only a fool learns from his own mistakes. The wise man learns from the mistakes of others.*/
+/* Only a fool learns from his own mistakes. The wise man learns from the mistakes of others.*/
     /*{ وَالَّذِينَ جَاهَدُوا فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ اللَّهَ لَمَعَ الْمُحْسِنِينَ }*/
-
+ 
     #include <bits/stdc++.h>
     using namespace std ;
     #define ll long long
@@ -27,30 +27,37 @@
     #define show(x)  cout << #x << " = " << x << '\n'
     #define cvc(x) for (auto &i : x) cin >> i ;
     #define cm return void
-
+ 
     void solllve () ;
-
+ 
     int main()
     {
-
+ 
         // TxtIO
         cin.sync_with_stdio(0); cin.tie(0);
         int t = 1 ;
         cin >> t ;
         while (t--)
         {
-
+ 
             solllve() ;
         }
         return 0;
     }
-
-    void solllve()
+ 
+  void solllve()
     {
-        string s; cin >> s;
-        std::sort(s.begin(), s.end()) ;
-        if (s.front()==s.back()) cout << -1 ;
-        else if (s[0]==s[2] or s[1]==s[3]) cout << 6 ;
-        else cout << 4 ;
-        cout << el ;
+        char c ;
+        bool f = 0 ;
+        map<char,int>m ;
+        FOR (i,4)
+        {
+            cin >> c ;
+            m[c]++ ;
+            if (m[c]==3) f|=1 ;
+        }
+        if (m.size()>=3 or (m.size()==2 and !f)) cout << 4 << el ;
+        else if (m.size()>1) cout << 6 << el ;
+        else cout << -1 << el ;
+ 
     }
