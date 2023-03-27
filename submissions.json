@@ -414,6 +414,25 @@
     ],
     "timestamp": "Mar/27/2023 07:18"
   },
+  "CF199467111": {
+    "contest_id": 1537,
+    "language": "GNU C++14",
+    "path": "codeforces\\1537\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Challenging Cliffs",
+    "problem_url": "https://codeforces.com/contest/1537/problem/C",
+    "submission_id": "CF199467111",
+    "submission_url": "https://codeforces.com/contest/1537/submission/199467111",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Mar/28/2023 00:29"
+  },
   "CF199770800": {
     "contest_id": 1808,
     "language": "GNU C++14",
