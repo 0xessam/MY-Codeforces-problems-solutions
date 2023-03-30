@@ -414,6 +414,22 @@
     ],
     "timestamp": "Mar/27/2023 07:18"
   },
+  "CF199775886": {
+    "contest_id": 327,
+    "language": "GNU C++14",
+    "path": "codeforces\\327\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hungry Sequence",
+    "problem_url": "https://codeforces.com/contest/327/problem/B",
+    "submission_id": "CF199775886",
+    "submission_url": "https://codeforces.com/contest/327/submission/199775886",
+    "tags": [
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Mar/30/2023 06:08"
+  },
   "CF199776004": {
     "contest_id": 1535,
     "language": "GNU C++14",
