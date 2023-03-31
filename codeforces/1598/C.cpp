@@ -58,7 +58,7 @@ void solllve()
         dp[v[i]]++ ;
         sm+=v[i] ;
     }
-    ll req = sm-(sm*(n-2))/n;
+    ull req = sm-(sm*(n-2))/n;
     // cout << req << el ;
     if ( (double) (sm-req)/((double )n-2) != (double)sm/(double)n) cm(cout << 0 << el) ;
     ll res{};
