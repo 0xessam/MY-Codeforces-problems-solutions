@@ -1,4 +1,22 @@
 {
+  "CF200340026": {
+    "contest_id": 1375,
+    "language": "GNU C++14",
+    "path": "codeforces\\1375\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Element Extermination",
+    "problem_url": "https://codeforces.com/contest/1375/problem/C",
+    "submission_id": "CF200340026",
+    "submission_url": "https://codeforces.com/contest/1375/submission/200340026",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Apr/02/2023 10:01"
+  },
   "CF200362328": {
     "contest_id": 365,
     "language": "GNU C++14",
