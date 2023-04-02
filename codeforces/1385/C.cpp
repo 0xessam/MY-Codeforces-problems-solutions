@@ -53,7 +53,7 @@ bool ok (int m)
     taken= min(v[l],v[r]) ;
     while (l<=r)
     {
-        if (v[l] <= v[r])
+        if (v[l] < v[r])
         {
             if (taken > v[l]) return 0 ;
             taken = v[l] ;
