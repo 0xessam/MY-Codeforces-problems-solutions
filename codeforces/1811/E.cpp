@@ -55,25 +55,20 @@ int main()
 void solllve()
 {
 // 1,2,3,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20,21,22,23,25,26,27,28,29,30,31,32,33,35,36,37,38,39,50
-    stack<int>sk ;
+    vector<int>v ;
     ll k ; cin >> k ;
     while (k>0)
     {
-        sk.push(k%9) ;
+        v.push_back(k%9) ;
         k/=9 ;
     }
-
-   while(!sk.empty())
-   {
-       if (sk.top()>3)
-       cout << sk.top()+1 ;
-       else cout << sk.top() ;
-        sk.pop() ;
-   }
-   cout << el ;
-
-
-
+    for (int i=0 ; i<v.size() ; i++)
+    {
+        if (v[i]>3) v[i]++ ;
+    }
+    std::reverse(v.begin(), v.end()) ;
+    for (auto i : v) cout << i ;
+    cout << el ;
 
 
 }
