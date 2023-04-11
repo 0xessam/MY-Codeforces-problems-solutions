@@ -1,4 +1,21 @@
 {
+  "CF201754427": {
+    "contest_id": 1722,
+    "language": "GNU C++17",
+    "path": "codeforces\\1722\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Line",
+    "problem_url": "https://codeforces.com/contest/1722/problem/D",
+    "submission_id": "CF201754427",
+    "submission_url": "https://codeforces.com/contest/1722/submission/201754427",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Apr/12/2023 00:28"
+  },
   "CF202008463": {
     "contest_id": 1529,
     "language": "GNU C++17",
