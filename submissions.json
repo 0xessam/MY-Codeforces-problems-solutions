@@ -1,4 +1,21 @@
 {
+  "CF202069593": {
+    "contest_id": 260,
+    "language": "GNU C++17",
+    "path": "codeforces\\260\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Adding Digits",
+    "problem_url": "https://codeforces.com/contest/260/problem/A",
+    "submission_id": "CF202069593",
+    "submission_url": "https://codeforces.com/contest/260/submission/202069593",
+    "tags": [
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Apr/14/2023 16:19"
+  },
   "CF202173592": {
     "contest_id": 1555,
     "language": "GNU C++17",
