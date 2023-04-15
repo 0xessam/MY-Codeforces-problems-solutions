@@ -1,4 +1,21 @@
 {
+  "CF202197050": {
+    "contest_id": 1820,
+    "language": "GNU C++17",
+    "path": "codeforces\\1820\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Yura's New Name",
+    "problem_url": "https://codeforces.com/contest/1820/problem/A",
+    "submission_id": "CF202197050",
+    "submission_url": "https://codeforces.com/contest/1820/submission/202197050",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Apr/15/2023 12:44"
+  },
   "CF202259623": {
     "contest_id": 1820,
     "language": "GNU C++17",
