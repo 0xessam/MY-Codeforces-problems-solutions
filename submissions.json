@@ -1,4 +1,21 @@
 {
+  "CF202434065": {
+    "contest_id": 1334,
+    "language": "GNU C++17",
+    "path": "codeforces\\1334\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Middle Class",
+    "problem_url": "https://codeforces.com/contest/1334/problem/B",
+    "submission_id": "CF202434065",
+    "submission_url": "https://codeforces.com/contest/1334/submission/202434065",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Apr/17/2023 06:02"
+  },
   "CF202460466": {
     "contest_id": 1593,
     "language": "GNU C++17",
