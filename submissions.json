@@ -1,4 +1,22 @@
 {
+  "CF202997369": {
+    "contest_id": 727,
+    "language": "GNU C++17",
+    "path": "codeforces\\727\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Guess the Array",
+    "problem_url": "https://codeforces.com/contest/727/problem/C",
+    "submission_id": "CF202997369",
+    "submission_url": "https://codeforces.com/contest/727/submission/202997369",
+    "tags": [
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Apr/22/2023 03:37"
+  },
   "CF203167092": {
     "contest_id": 1676,
     "language": "GNU C++17",
