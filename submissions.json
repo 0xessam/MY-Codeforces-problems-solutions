@@ -1,4 +1,22 @@
 {
+  "CF204776951": {
+    "contest_id": 1829,
+    "language": "GNU C++14",
+    "path": "codeforces\\1829\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Mr. Perfectly Fine",
+    "problem_url": "https://codeforces.com/contest/1829/problem/C",
+    "submission_id": "CF204776951",
+    "submission_url": "https://codeforces.com/contest/1829/submission/204776951",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/06/2023 17:47"
+  },
   "CF204819762": {
     "contest_id": 1829,
     "language": "GNU C++14",
