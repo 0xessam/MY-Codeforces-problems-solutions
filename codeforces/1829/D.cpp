@@ -54,27 +54,32 @@ int main()
     }
     return 0;
 }
-
-string s = "NO" ;
-void dfs(ll n ,ll m)
+bool res = 0 ;
+map<int,int>vis ;
+void dfs(ll n , ll m)
 {
-    if (n==m) s="YES" ;
-    else if (n%3==0)
-    {
-        n/=3 ;
-        dfs(n,m);
-        dfs(n+n,m);
-    }
+    //cout << n << el ;
+    if (n==m) res = 1 ;
+    if (n%3) return;
+    if(vis[n]) return;
+    vis[n]|=1 ;
+    if (n==m) res = 1 ;
+    dfs(n/3 , m);
+    dfs(2*(n/3) , m);
+
 
 }
 
 void solllve()
 {
-   ll n , m ;
-   cin >> n >> m ;
-   s="NO" ;
+    vis.clear();
+    res=0 ;
+    ll n,m ; cin >> n >> m ;
     dfs(n,m) ;
-    cout << s << el ;
+    res?yes:no ;
+
 
 
 }
+
+
