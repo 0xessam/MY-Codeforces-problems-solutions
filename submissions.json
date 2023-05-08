@@ -1,4 +1,21 @@
 {
+  "CF205105535": {
+    "contest_id": 1825,
+    "language": "GNU C++14",
+    "path": "codeforces\\1825\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "LuoTianyi and the Table",
+    "problem_url": "https://codeforces.com/contest/1825/problem/B",
+    "submission_id": "CF205105535",
+    "submission_url": "https://codeforces.com/contest/1825/submission/205105535",
+    "tags": [
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "May/08/2023 16:08"
+  },
   "CF205559422": {
     "contest_id": 1832,
     "language": "GNU C++14",
