@@ -62,27 +62,24 @@ int main()
 
 void solllve()
 {
+    ll res=2 ;
     int n ; cin >> n ;
     vector<int>v(n) ;
     cvc(v) ;
     set<int>st ;
     for (auto i : v) st.insert(i) ;
-    if (st.size()==1) cm(cout << 1 << el );
-    v.erase(unique(v.begin(), v.end()), v.end());
-    ll res = 0 ;
-    if (v.size()<3)
-    {
-        set<int>st ;
-        for (auto i : v) st.insert(i) ;
-        if (st.size()==1) cout << 1 << el ;
-        else cout << 2 << el ;
+    if(st.size()==1)cm(cout << 1 << el ) ;
+    auto it  = unique (v.begin(), v.begin() + n) ;
+    int siz = abs(it-v.begin()) ;
+    v.resize(siz);
 
-        return;
-    }
-    for (int i=1 ; i<v.size()-1 ; i++)
+    for (int i = 1; i < v.size() - 1; i++)
     {
-        if (v[i]>v[i-1] and v[i]>v[i+1] or v[i]<v[i-1] and v[i]<v[i+1] ) res++ ;
+        if (v[i] > v[i - 1] and v[i] > v[i + 1] or (v[i] < v[i - 1] and v[i] < v[i + 1]) )res++;
+
     }
-    cout << res+2 << el  ;
+
+
+    cout << res << el ;
 
 }
