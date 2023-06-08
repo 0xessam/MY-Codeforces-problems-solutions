@@ -1,4 +1,20 @@
 {
+  "CF208945956": {
+    "contest_id": 1831,
+    "language": "GNU C++14",
+    "path": "codeforces\\1831\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Twin Permutations",
+    "problem_url": "https://codeforces.com/contest/1831/problem/A",
+    "submission_id": "CF208945956",
+    "submission_url": "https://codeforces.com/contest/1831/submission/208945956",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Jun/08/2023 06:05"
+  },
   "CF209502298": {
     "contest_id": 1841,
     "language": "GNU C++14",
