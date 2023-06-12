@@ -1,4 +1,21 @@
 {
+  "CF209502298": {
+    "contest_id": 1841,
+    "language": "GNU C++14",
+    "path": "codeforces\\1841\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Game with Board",
+    "problem_url": "https://codeforces.com/contest/1841/problem/A",
+    "submission_id": "CF209502298",
+    "submission_url": "https://codeforces.com/contest/1841/submission/209502298",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "*800"
+    ],
+    "timestamp": "Jun/13/2023 02:06"
+  },
   "CF209874296": {
     "contest_id": 1311,
     "language": "GNU C++14",
