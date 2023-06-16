@@ -1,4 +1,21 @@
 {
+  "CF209875667": {
+    "contest_id": 1311,
+    "language": "GNU C++14",
+    "path": "codeforces\\1311\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "WeirdSort",
+    "problem_url": "https://codeforces.com/contest/1311/problem/B",
+    "submission_id": "CF209875667",
+    "submission_url": "https://codeforces.com/contest/1311/submission/209875667",
+    "tags": [
+      "dfs and similar",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jun/16/2023 18:05"
+  },
   "CF210087083": {
     "contest_id": 1834,
     "language": "GNU C++14",
