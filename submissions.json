@@ -1,4 +1,21 @@
 {
+  "CF210116468": {
+    "contest_id": 1836,
+    "language": "GNU C++14",
+    "path": "codeforces\\1836\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Destroyer",
+    "problem_url": "https://codeforces.com/contest/1836/problem/A",
+    "submission_id": "CF210116468",
+    "submission_url": "https://codeforces.com/contest/1836/submission/210116468",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jun/18/2023 17:44"
+  },
   "CF210360696": {
     "contest_id": 1843,
     "language": "GNU C++14",
