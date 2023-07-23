@@ -56,69 +56,59 @@ int main()
     }
     return 0;
 }
-vector<int>v ;
-double n , a ;
 
 
-double f(double m  )
-{
-    double ve = 1 , po=0 ;
-    deque<int>d ;
-    for(auto i : v) d.push_back(i) ;
-    while (m>0) {
-        if (po + ve * m > d.front()) {
-            double now = d.front()-po ;
-            m-=now/ve ;
-            ve++ ;
-            po=d.front() ;
-            d.pop_front() ;
-            if (d.empty()) return po+ve*m ;
-        }
-        else  po += ve * m , m=0;
-    }
-    return po+ve*m ;
-}
-double s(double m)
-{
-    double ve = 1 , po=a ;
-    deque<int>d ;
-    for(auto i : v) d.push_back(i) ;
 
-    while (m>0.0000005 ) {
-        if (po - ve * m < d.back()) {
-            double now = po-d.back() ;
-            m-=now/ve ;
-            ve++ ;
-            po=d.back() ;
-            d.pop_back() ;
-            if (d.empty()) return po-ve*m ;
-        }
-        else  po -= ve * m , m=0;
-    }
-    return po-ve*m ;
 
-}
 
 void solllve()
 {
+    vector<double>v ;
+    double n , a ;
     int lp=100 ; cin >> n >> a;
     FOR(i,n)
     {
-        int x ;cin >> x;
+        double x ;cin >> x;
         v.push_back(x) ;
     }
     double l=0,r=a+1,m ;
+
     while (lp--)
     {
-        m = l + (r - l) / 2.0;
-        double ff = f(m) ;
-        double ss = s(m) ;
-        //  cout << fixed << setprecision(10) << ff << el ;
-        //  cout << fixed << setprecision(10) << ss << el ;
-        //  if (abs(ff-ss)<1e-6) {
-        //       l=m ;
-        //     break;
-        //  }
+        m =  (r + l) / 2.0;
+        double ff = 0 , ss = a ;
+        double ve = 1 ;
+        int idx = 0 ;
+        double mm = m ;
+        while (mm>0 and idx<n)
+        {
+            if (ff+mm*ve > v[idx])
+            {
+                mm-=abs(v[idx]-ff)/ve ;
+                ff = v[idx] ;
+                idx++ ;
+                ve++ ;
+            }
+            else
+            ff+=mm*ve , mm=0 ;
+        }
+       if(mm>0) ff+=mm*ve ;
+        mm=m ;
+        idx = n-1 ;
+        ve=1 ;
+        while (mm>0 and idx>=0)
+        {
+            if (ss-(mm*ve) < v[idx])
+            {
+                mm-=abs(v[idx]-ss)/ve ;
+                ss = v[idx] ;
+                idx-- ;
+                ve++ ;
+            }
+            else
+                ss-=mm*ve , mm=0 ;
+        }
+       if(mm>0) ss-=mm*ve ;
         if (ff < ss) l = m;
         else r = m;
 
