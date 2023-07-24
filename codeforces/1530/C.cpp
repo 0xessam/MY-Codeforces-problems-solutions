@@ -81,14 +81,15 @@ void solllve()
         int x ;cin >> x;
         b.push_back(x) ;
     }
-    int l=-1 , r=n ;
-    while (r>l+1)
+    int l=0 , r=n ;
+    while (l<r)
     {
-        int m = l+(r-l)/2 ;
+        int m = (l+r)/2 ;
         if (val(m , a , b)) r=m ;
-        else l=m ;
+        else l=m+1 ;
+
     }
-    cout << r << el ;
+    cout << l << el ;
 
 
 }
