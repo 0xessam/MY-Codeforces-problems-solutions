@@ -1,4 +1,21 @@
 {
+  "CF215890603": {
+    "contest_id": 1849,
+    "language": "GNU C++17",
+    "path": "codeforces\\1849\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Morning Sandwich",
+    "problem_url": "https://codeforces.com/contest/1849/problem/A",
+    "submission_id": "CF215890603",
+    "submission_url": "https://codeforces.com/contest/1849/submission/215890603",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/27/2023 17:40"
+  },
   "CF216012268": {
     "contest_id": 822,
     "language": "GNU C++17",
