@@ -59,25 +59,7 @@ int main()
 
 void solllve()
 {
-    ll n,k ; cin >> n >> k ;
-    vector<ll>v ;
-    for (ll i = 1; i*i <= n ; ++i) {
-        if (n%i==0)
-        {
-            if (n/i==i) v.push_back(i) ;
-            else {
-                v.push_back(i);
-                v.push_back(n / i);
-            }   }
-
-    }
-    std::sort(v.begin(), v.end()) ;
-    if(k>v.size()) cout<<-1 ;
-    else
-        cout << v[k-1] ;
-
-    /*
-     ll n,k;
+    ll n,k;
     cin >> n >> k;
     vector<ll> vec;
     for(ll i=1; i*i<=n; i++)
@@ -93,8 +75,8 @@ void solllve()
     }
     sort(vec.begin() , vec.end());
     if (vec.size() < k) cm (cout << "-1\n") ;
-    cout << vec[k-1] << "\n"; 
-     * */
+    cout << vec[k-1] << "\n";
+
 
 
 }
