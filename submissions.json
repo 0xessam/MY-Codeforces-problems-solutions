@@ -1,4 +1,24 @@
 {
+  "CF216278765": {
+    "contest_id": 1855,
+    "language": "GNU C++17",
+    "path": "codeforces\\1855\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Longest Divisors Interval",
+    "problem_url": "https://codeforces.com/contest/1855/problem/B",
+    "submission_id": "CF216278765",
+    "submission_url": "https://codeforces.com/contest/1855/submission/216278765",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "greedy",
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Jul/29/2023 18:23"
+  },
   "CF216357452": {
     "contest_id": 1374,
     "language": "GNU C++17",
