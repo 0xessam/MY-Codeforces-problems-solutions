@@ -1,4 +1,21 @@
 {
+  "CF216237284": {
+    "contest_id": 1855,
+    "language": "GNU C++17",
+    "path": "codeforces\\1855\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dalton the Teacher",
+    "problem_url": "https://codeforces.com/contest/1855/problem/A",
+    "submission_id": "CF216237284",
+    "submission_url": "https://codeforces.com/contest/1855/submission/216237284",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/29/2023 17:37"
+  },
   "CF216278765": {
     "contest_id": 1855,
     "language": "GNU C++17",
