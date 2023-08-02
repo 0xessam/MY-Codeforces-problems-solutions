@@ -1,4 +1,20 @@
 {
+  "CF216885930": {
+    "contest_id": 121,
+    "language": "GNU C++17",
+    "path": "codeforces\\121\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lucky Sum",
+    "problem_url": "https://codeforces.com/contest/121/problem/A",
+    "submission_id": "CF216885930",
+    "submission_url": "https://codeforces.com/contest/121/submission/216885930",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Aug/02/2023 20:33"
+  },
   "CF216908285": {
     "contest_id": 1452,
     "language": "GNU C++17",
