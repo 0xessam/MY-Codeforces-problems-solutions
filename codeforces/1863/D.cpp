@@ -46,7 +46,7 @@ signed main()
 void solllve()  {
 
 
-    map<int,int> L , U ;
+    map<int,int>row , col , L , U ;
     vector<pair<int,int>>LR ;
     vector<pair<int,int>>UD ;
     cin >> n >> m ;
@@ -56,6 +56,7 @@ void solllve()  {
             cin >> c ;
             if (c=='L') LR.emplace_back(j,i) , L[j]++ ;
             if (c=='U') UD.emplace_back(i,j) , U[i]++ ;
+            if (c!='.') row[i]++ , col[j]++ ;
         }
     }
  //   for(auto i : row) if (i.second&1) none ;
