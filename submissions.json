@@ -1,4 +1,21 @@
 {
+  "CF221182892": {
+    "contest_id": 1863,
+    "language": "GNU C++17",
+    "path": "codeforces\\1863\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Two-Colored Dominoes",
+    "problem_url": "https://codeforces.com/contest/1863/problem/D",
+    "submission_id": "CF221182892",
+    "submission_url": "https://codeforces.com/contest/1863/submission/221182892",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Aug/30/2023 21:15"
+  },
   "CF221197043": {
     "contest_id": 888,
     "language": "GNU C++17",
