@@ -51,7 +51,7 @@ void solllve()  {
       //  show(cur) ;
         cin >> x ;
         if ( x > 0 and mp[x]==0 ) cur++ , mp[x]=1 ;
-        else if (  x < 0 and (x=-x) and mp[x]==1 ) cur-- , mp[x]=-1 ;
+        else if ( x < 0 and mp[-x]==1 ) cur-- , mp[-x]=-1 ;
         else none ;
         if (cur == 0) res.push_back(i+1) , mp.clear() ;
     }
