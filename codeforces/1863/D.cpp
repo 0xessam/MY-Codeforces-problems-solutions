@@ -59,8 +59,8 @@ void solllve()  {
             if (c!='.') row[i]++ , col[j]++ ;
         }
     }
- //   for(auto i : row) if (i.second&1) none ;
-  //  for(auto i : col) if (i.second&1) none ;
+    for(auto i : row) if (i.second&1) none ;
+    for(auto i : col) if (i.second&1) none ;
     if( LR.size() &1 or UD.size()&1 ) none ;
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
