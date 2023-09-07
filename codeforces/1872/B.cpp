@@ -59,7 +59,7 @@ void solllve() {
     for (int i = 0; i < n; ++i) {
         cin >> v[i].first >> v[i].second ;
     }
-    int l = -1 , r = 10000 ;
+    int l = 1 , r = 10000 ;
     while (r>l+1)
     {
         int m = (l+r)>>1 ;
