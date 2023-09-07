@@ -1,4 +1,21 @@
 {
+  "CF222378703": {
+    "contest_id": 1872,
+    "language": "GNU C++17",
+    "path": "codeforces\\1872\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Corridor or There and Back Again",
+    "problem_url": "https://codeforces.com/contest/1872/problem/B",
+    "submission_id": "CF222378703",
+    "submission_url": "https://codeforces.com/contest/1872/submission/222378703",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Sep/08/2023 02:51"
+  },
   "CF222401094": {
     "contest_id": 1506,
     "language": "GNU C++17",
