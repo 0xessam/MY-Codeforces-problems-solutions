@@ -22,23 +22,23 @@ cout << el ;
 void __(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
 #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
+     freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
 #endif
-}
+ }
 
 
 void solllve () ;
 signed main()
 {
 
-    __() ;
-    int t = 1 ;
-    cin >> t ;
-    while (t--)
-    {
-        solllve() ;
-    }
-    return 0;
+     __() ;
+     int t = 1 ;
+     cin >> t ;
+     while (t--)
+     {
+           solllve() ;
+     }
+       return 0;
 }
 vector<pair<int,int>> v;
 int n ;
@@ -59,7 +59,7 @@ void solllve() {
     for (int i = 0; i < n; ++i) {
         cin >> v[i].first >> v[i].second ;
     }
-    int l = 1 , r = 10000 ;
+    int l = 0 , r = 10000 ;
     while (r>l+1)
     {
         int m = (l+r)>>1 ;
