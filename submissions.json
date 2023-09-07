@@ -1,4 +1,20 @@
 {
+  "CF222282437": {
+    "contest_id": 1872,
+    "language": "GNU C++17",
+    "path": "codeforces\\1872\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Plus Minus Permutation",
+    "problem_url": "https://codeforces.com/contest/1872/problem/D",
+    "submission_id": "CF222282437",
+    "submission_url": "https://codeforces.com/contest/1872/submission/222282437",
+    "tags": [
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Sep/07/2023 18:31"
+  },
   "CF222299781": {
     "contest_id": 1872,
     "language": "GNU C++17",
