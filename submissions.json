@@ -1,4 +1,21 @@
 {
+  "CF222401094": {
+    "contest_id": 1506,
+    "language": "GNU C++17",
+    "path": "codeforces\\1506\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Restoring the Permutation",
+    "problem_url": "https://codeforces.com/contest/1506/problem/E",
+    "submission_id": "CF222401094",
+    "submission_url": "https://codeforces.com/contest/1506/submission/222401094",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Sep/08/2023 08:58"
+  },
   "CF222424068": {
     "contest_id": 1099,
     "language": "GNU C++17",
