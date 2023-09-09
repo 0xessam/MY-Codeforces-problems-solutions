@@ -1,4 +1,21 @@
 {
+  "CF222526395": {
+    "contest_id": 1717,
+    "language": "GNU C++17",
+    "path": "codeforces\\1717\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Madoka and Underground Competitions",
+    "problem_url": "https://codeforces.com/contest/1717/problem/B",
+    "submission_id": "CF222526395",
+    "submission_url": "https://codeforces.com/contest/1717/submission/222526395",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Sep/09/2023 03:34"
+  },
   "CF222561278": {
     "contest_id": 1713,
     "language": "GNU C++17",
