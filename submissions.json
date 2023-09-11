@@ -1,4 +1,21 @@
 {
+  "CF222936986": {
+    "contest_id": 1867,
+    "language": "GNU C++17",
+    "path": "codeforces\\1867\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "green_gold_dog, array and permutation",
+    "problem_url": "https://codeforces.com/contest/1867/problem/A",
+    "submission_id": "CF222936986",
+    "submission_url": "https://codeforces.com/contest/1867/submission/222936986",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Sep/11/2023 18:09"
+  },
   "CF222937087": {
     "contest_id": 1867,
     "language": "GNU C++17",
