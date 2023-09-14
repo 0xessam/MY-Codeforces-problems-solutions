@@ -56,6 +56,10 @@ void solllve()  {
     }
     UNIQUE(v) ;
     int mx = 0 ;
+    int c1 = r+v.end()-std::upper_bound(v.begin(), v.end(),r) ;
+    int c2 = l + v.size()- (v.end()- std::upper_bound(v.begin(), v.end(),l)) ;
+    mx = max(mx ,c1 ) ;
+    mx = max(mx ,c2 ) ;
     minz(mx,m);
     for (int i = 0; i < v.size(); ++i) {
         int id = v[i] ;
