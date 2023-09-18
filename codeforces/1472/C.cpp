@@ -45,29 +45,17 @@ signed main()
 }
 
 // f6
-    int n ;
-    int dp[200005] ;
-    int a[200005] ;
-    int solve(int i)
-    {
-        if (i>=n)
-            return 0 ;
-        int &ret = dp[i] ;
-        if (~ret) return ret ;
-      return  ret = solve(i+a[i])+a[i] ;
-    }
 
 void solllve()  {
-    cin >> n ;
-    for (int i = 0; i < n; ++i) {
-        cin >> a[i] ;
-        dp[i]=-1 ;
-        dp[i+1] = -1 ;
+    int n ; cin >> n ;
+    vector<int>v(n) ; cin >> v ;
+    for (int i = n-1; ~i; --i) {
+        if (i+v[i] > n-1) continue;
+        else v[i]+=v[i+v[i]] ;
     }
-    for (int i = 0; i < n; ++i) {
-        solve(i) ;
-    }
-    cout << *max_element(dp,dp+n) << el ;
+    cout << *std::max_element(v.begin(), v.end()) << el ;
+
+
 
 
 
