@@ -1,4 +1,25 @@
 {
+  "CF223782618": {
+    "contest_id": 1628,
+    "language": "GNU C++17",
+    "path": "codeforces\\1628\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Meximum Array",
+    "problem_url": "https://codeforces.com/contest/1628/problem/A",
+    "submission_id": "CF223782618",
+    "submission_url": "https://codeforces.com/contest/1628/submission/223782618",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Sep/18/2023 03:13"
+  },
   "CF223782686": {
     "contest_id": 1629,
     "language": "GNU C++17",
