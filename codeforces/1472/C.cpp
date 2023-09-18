@@ -46,7 +46,7 @@ signed main()
 
 // f6
     int n ;
-    vector<int>a(2e5+5),dp(2e5+5) ;
+    vector<int>a,dp ;
     int solve(int i)
     {
         if (i>=n)
@@ -58,13 +58,15 @@ signed main()
 
 void solllve()  {
     cin >> n ;
+    a=vector<int>(n) ;
+    dp=vector<int>(n) ;
     for (int i = 0; i < n; ++i) {
         cin >> a[i] ; dp[i]=-1 ;
     }
     for (int i = 0; i < n; ++i) {
         solve(i) ;
     }
-    cout << *max_element(dp.begin(),dp.begin()+n) << el ;
+    cout << *max_element(dp.begin(),dp.end()) << el ;
 
 
 
