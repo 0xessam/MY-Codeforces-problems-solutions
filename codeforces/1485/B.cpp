@@ -50,7 +50,7 @@ void solllve() {
     }
     vector<int>pre(n+2,0) ;
     pre.back() = k ;
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 1; i < n; ++i) {
         pre[i] = (v[i]-v[i-1]-1) + (v[i+1]-v[i]-1) ;
         pre[i]+=pre[i-1] ;
     }
