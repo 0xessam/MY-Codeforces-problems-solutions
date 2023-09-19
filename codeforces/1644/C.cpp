@@ -44,7 +44,7 @@ signed main()
 
 void solllve()  {
     int n ,x ; cin >> n >> x ;
-    vector<int>v(n+1 , 0) , res(n+1 , -1e17 ) ;
+    vector<int>v(n+1 , 0) , res(n+3 , -1e17 ) ;
     for (int i = 0; i < n; ++i) {
         cin >> v[i+1] ;
     }
@@ -58,16 +58,21 @@ void solllve()  {
             maxz(res[k+1] , v[r]-v[l] ) ;
             l++,r++ ;
         }
+
     }
-    res[0]=max(0ll,res[1]) ;
-    for (int i = n-1; ~i ; --i) {
+    for (int i = n-1; i>=0 ; --i) {
         maxz(res[i] , res[i+1]) ;
     }
-
-    for (int i = 1; i <= n; ++i) {
-        res[i] = max (res[i-1] , res[i] + i*x) ;
+    for (int i = 0; i <= n; ++i) {
+        res[i]  = max({0ll, res[i] + i * x})  ;
     }
-    cout(res) ;
+    cout << res[0 ]<< ' ' ;
+    for (int i = 1; i <= n; ++i) {
+        res[i] = max(res[i] , res[i-1]) ;
+        cout << res[i] << ' '  ;
+    }
+
+    cout << el ;
 
 
 
