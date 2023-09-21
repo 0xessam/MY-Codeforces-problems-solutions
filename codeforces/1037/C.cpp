@@ -69,7 +69,7 @@ void solllve()  {
     }
     if (idxx.size()==0)
     {
-        cout << idxx.size()-idx.size() ;
+        cout << solve(0) ;
         return;
     }
 
