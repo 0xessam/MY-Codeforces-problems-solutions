@@ -1,4 +1,22 @@
 {
+  "CF224245608": {
+    "contest_id": 1037,
+    "language": "GNU C++14",
+    "path": "codeforces\\1037\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Equalize",
+    "problem_url": "https://codeforces.com/contest/1037/problem/C",
+    "submission_id": "CF224245608",
+    "submission_url": "https://codeforces.com/contest/1037/submission/224245608",
+    "tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Sep/21/2023 07:00"
+  },
   "CF224245649": {
     "contest_id": 1037,
     "language": "GNU C++14",

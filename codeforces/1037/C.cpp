@@ -67,9 +67,13 @@ void solllve()  {
         if (a[i]!=b[i]) idxx.push_back({i,a[i]}) ;
         dp[i]=dp[i+1]=-1 ;
     }
-    
+    if (idxx.size()==0)
+    {
+        cout << idxx.size()-idx.size() ;
+        return;
+    }
 
-    for (int i = 0; i < idxx.size() - 1 and idxx.size(); ++i) {
+    for (int i = 0; i < idxx.size() - 1; ++i) {
         if (idxx[i].first+1 == idxx[i+1].first and idxx[i].second!=idxx[i+1].second)
         {
             idx.push_back(idxx[i].first) ;
