@@ -67,12 +67,7 @@ void solllve()  {
         if (a[i]!=b[i]) idxx.push_back({i,a[i]}) ;
         dp[i]=dp[i+1]=-1 ;
     }
-    if (idxx.size()==0)
-    {
-        cout << solve(0) ;
-        return;
-    }
-
+    if (a==b) cm(cout<<0<<el) ;
     for (int i = 0; i < idxx.size() - 1; ++i) {
         if (idxx[i].first+1 == idxx[i+1].first and idxx[i].second!=idxx[i+1].second)
         {
