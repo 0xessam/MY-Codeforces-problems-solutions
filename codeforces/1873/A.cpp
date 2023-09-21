@@ -1,3 +1,7 @@
+
+// حل التعرفو و سيب المتعرفوش
+
+
 #include <bits/stdc++.h>
 using namespace std ;
 #define lp(i,n) for(int i = 0; i < (n); ++i)
@@ -40,13 +44,22 @@ signed main()
      }
        return 0;
 }
-    
 
 void solllve()  {
-   
+    string s ; cin >> s;
+    auto x = s ;
+    std::sort(x.begin(), x.end()) ;
+    int y = 0 ;
+    for (int i = 0; i < s.size(); ++i) {
+        y+= s[i]!=x[i] ;
+    }
+    y<=2?yes:no ;
 
-    string s ; cin >> s; 
-    s[0]=='a' or s[1]=='b' or s[2]=='c' ? yes:no ;
+
+
+
+
+
 
 
 }
