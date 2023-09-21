@@ -1,4 +1,22 @@
 {
+  "CF224343575": {
+    "contest_id": 1873,
+    "language": "GNU C++17",
+    "path": "codeforces\\1873\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "1D Eraser",
+    "problem_url": "https://codeforces.com/contest/1873/problem/D",
+    "submission_id": "CF224343575",
+    "submission_url": "https://codeforces.com/contest/1873/submission/224343575",
+    "tags": [
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*800"
+    ],
+    "timestamp": "Sep/21/2023 17:48"
+  },
   "CF224384025": {
     "contest_id": 1873,
     "language": "GNU C++17",
