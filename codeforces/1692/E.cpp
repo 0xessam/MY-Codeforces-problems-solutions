@@ -56,8 +56,9 @@ void solllve()  {
         v[i]+=v[i-1] ;
     }
     if (v.back()<x) none ;
-    int l = x , r = n ;
+    int l = x-1 , r = n ;
     int ans = -1 ;
+    if (v.back()==x) cm(cout << 0 << el) ;
     while (l<=r)
     {
         int m = (l+r) >> 1 ;
