@@ -1,4 +1,22 @@
 {
+  "CF224824467": {
+    "contest_id": 1870,
+    "language": "GNU C++17",
+    "path": "codeforces\\1870\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Friendly Arrays",
+    "problem_url": "https://codeforces.com/contest/1870/problem/B",
+    "submission_id": "CF224824467",
+    "submission_url": "https://codeforces.com/contest/1870/submission/224824467",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Sep/24/2023 08:13"
+  },
   "CF224974584": {
     "contest_id": 1879,
     "language": "GNU C++17",
