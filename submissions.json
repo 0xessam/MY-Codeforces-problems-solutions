@@ -1,4 +1,21 @@
 {
+  "CF224974584": {
+    "contest_id": 1879,
+    "language": "GNU C++17",
+    "path": "codeforces\\1879\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Chips on the Board",
+    "problem_url": "https://codeforces.com/contest/1879/problem/B",
+    "submission_id": "CF224974584",
+    "submission_url": "https://codeforces.com/contest/1879/submission/224974584",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Sep/24/2023 19:37"
+  },
   "CF224995266": {
     "contest_id": 1365,
     "language": "GNU C++17",
