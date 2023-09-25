@@ -1,4 +1,22 @@
 {
+  "CF225026668": {
+    "contest_id": 1742,
+    "language": "GNU C++17",
+    "path": "codeforces\\1742\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Scuza",
+    "problem_url": "https://codeforces.com/contest/1742/problem/E",
+    "submission_id": "CF225026668",
+    "submission_url": "https://codeforces.com/contest/1742/submission/225026668",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Sep/25/2023 07:49"
+  },
   "CF225100370": {
     "contest_id": 1882,
     "language": "GNU C++17",
