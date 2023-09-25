@@ -1,7 +1,107 @@
 // Generally, in life we may face problems that looks like
 // so hard to deal with from the outside but once you tried to deal with them
 // you would find that the most hard problem you should deal with is yourself ☻
-
+/*
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * */
 #include <bits/stdc++.h>
 using namespace std ;
 #define lp(i,n) for(int i = 0; i < (n); ++i)
@@ -29,78 +129,7 @@ void __(){
      freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
 #endif
  }
-/*
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- خد رايح فين طب صل على النبي طيب ☻☻ 
- **/
+
 
 void solllve () ;
 signed main()
@@ -115,27 +144,26 @@ signed main()
      }
        return 0;
 }
+    const int N = 2e5+5 ;
+    int a[N],dp[N],n ;
 
-const int N = 2e5+5 ;
-int a[N],dp[N],n ;
-
-int solve(int i , int j)
-{
+    int solve(int i , int j)
+    {
 //        cout << i << ' ' << j << el ;
-    if (j<0) return -100000007 ;
-    if (i>n) return 0 ;
-    int &ret = dp[i] ;
-    if (~ret)
-        return ret ;
-    ret = -1e10 ;
-    int x=-1e10 , y = -1e10,z=-1e10 ;
-    x=solve(i+1 ,j+1 )+a[i] ;
-      y=solve(i+1 , j-1) ;
-    z = solve(i+2,j+1) ;
+        if (j<0) return -100000007 ;
+        if (i>n) return 0 ;
+        int &ret = dp[i] ;
+        if (~ret)
+            return ret ;
+        ret = -1e10 ;
+        int x=-1e10 , y = -1e10,z=-1e10 ;
+          x=solve(i+1 ,j+1 )+a[i] ;
+          if(j>0)  y=solve(i+1 , j-1) ;
+          z = solve(i+2,j+1) ;
 
-    return ret = max({x, y,z}) ;
+        return ret = max({x, y,z}) ;
 
-}
+    }
 
 void solllve()  {
     setDP(dp);
@@ -148,6 +176,7 @@ void solllve()  {
 
 
 }
+
 
 
 /* لو أنكم تتوكلون على الله حق توكله لرزقكم كما يرزق الطير تغدو خماصاً وتروح بطاناً */
