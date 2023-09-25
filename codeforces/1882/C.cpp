@@ -127,10 +127,10 @@ int solve(int i , int j)
     int &ret = dp[i] ;
     if (~ret)
         return ret ;
-    ret = -100 ;
-    int x=-100 , y = -100,z=-100 ;
+    ret = 0 ;
+    int x=-1 , y = -1,z=-1 ;
     x=solve(i+1 ,j+1 )+a[i] ;
-    y=solve(i+1 , j-1) ;
+      y=solve(i+1 , j-1) ;
     z = solve(i+2,j+1) ;
 
     return ret = max({x, y,z}) ;
