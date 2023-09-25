@@ -122,13 +122,13 @@ int a[N],dp[N],n ;
 int solve(int i , int j)
 {
 //        cout << i << ' ' << j << el ;
-    if (j<0) return -1 ;
+    if (j<0) return -100000007 ;
     if (i>n) return 0 ;
     int &ret = dp[i] ;
     if (~ret)
         return ret ;
-    ret = 0 ;
-    int x=-1 , y = -1,z=-1 ;
+    ret = -1e10 ;
+    int x=-1e10 , y = -1e10,z=-1e10 ;
     x=solve(i+1 ,j+1 )+a[i] ;
       y=solve(i+1 , j-1) ;
     z = solve(i+2,j+1) ;
