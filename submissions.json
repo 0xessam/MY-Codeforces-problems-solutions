@@ -1,4 +1,21 @@
 {
+  "CF225194513": {
+    "contest_id": 1744,
+    "language": "GNU C++17",
+    "path": "codeforces\\1744\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Number Replacement",
+    "problem_url": "https://codeforces.com/contest/1744/problem/A",
+    "submission_id": "CF225194513",
+    "submission_url": "https://codeforces.com/contest/1744/submission/225194513",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/26/2023 04:23"
+  },
   "CF225195596": {
     "contest_id": 1744,
     "language": "GNU C++17",
